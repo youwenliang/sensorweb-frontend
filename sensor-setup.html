@@ -33,31 +33,43 @@
     <div class="section">
       <div class="row">
         <div class="col s12 center">
-          <h4>Sensor Management</h4>
+          <h4>Setup New Sensor</h4>
         </div>
       </div>
       <div class="row">
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="https://avatars3.githubusercontent.com/u/3013038?v=3&s=460">
-              <span class="card-title">evanxd</span>
-            </div>
-            <div class="card-content">
-              <p>evanxd@mozill.com</p>
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input placeholder="PM2.5 at home" id="first_name" type="text" class="validate">
+              <label for="first_name">Sensor Name</label>
             </div>
           </div>
-        </div>
-        <div class="col s12 m8">
-          <ul class="collection with-header">
-            <li class="collection-item"><div><h4>My Devices<a class="secondary-content btn-floating waves-effect waves-light" href="sensor-setup.html"><i class="material-icons">add</i></a></h4></div></li>
-            <li class="collection-item"><div>PM2.5 sensor at home<a href="#!" class="secondary-content">Detail</a></div></li>
-            <li class="collection-item"><div>PM2.5 sensor in office<a href="#!" class="secondary-content">Detail</a></div></li>
-            <li class="collection-item"><div>PM2.5 sensor in Taipei train station<a href="#!" class="secondary-content">Detail</a></div></li>
-            <li class="collection-item"><div>PM2.5 sensor in the school<a href="#!" class="secondary-content">Detail</a></div></li>
-            <li class="collection-item"><div>PM2.5 sensor in 101 building<a href="#!" class="secondary-content">Detail</a></div></li>
-          </ul>
-        </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input placeholder="No. 106, Section 5, Xinyi Rd, Xinyi District, Taipei City, 110" id="first_name" type="text" class="validate">
+              <label for="first_name">Location</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="textarea1" placeholder="Sensor that detect PM2.5." class="materialize-textarea"></textarea>
+              <label for="textarea1">Description</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <select>
+                <option value="" disabled selected>Choose Program</option>
+                <option value="1">PM2.5</option>
+                <option value="2">+ Other Program</option>
+              </select>
+              <label>Program</label>
+            </div>
+          </div>
+          <div class="row center">
+            <a class="waves-effect waves-light btn">Create</a>
+          </div>
+        </form>
       </div>
 
     </div>
