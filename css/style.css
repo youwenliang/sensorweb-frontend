@@ -5,19 +5,123 @@
  *
  * Made By MaterializeCSS.com
  */
+html, body{
+  height: 100%;
+  font-size: 12pt;
+}
+
+nav{
+  z-index: 1000;
+  top:0;
+}
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #FFF;
 }
+
+.brand-logo {
+  font-size: 1.6em !important;
+  font-weight: 500;
+  letter-spacing: .6px; 
+}
+
+/*Sections*/
+
+#index-banner {
+  height: 768px;
+}
+
+#what {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.projects {
+  margin-top: 150px;
+}
+
+.place-image {
+  display: block;
+  background-color: #ccc;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 100px;
+}
+
+.banner {
+  background-color: #f1f1f1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+/*Typography*/
 
 p {
   line-height: 2rem;
+  color: #333;
+}
+
+h2 {
+  font-weight: 100 !important;
+  letter-spacing: 2px;
+}
+
+h3, h4 {
+  margin-bottom: 40px;
+  color: #333;
+  font-weight: 700;
+}
+
+.contents{
+  font-size: 1.5em;
+  line-height: 1.8;
+  font-weight: 300;
+  color: rgba(0,0,0,0.5);
+  text-align: left;
+}
+
+/*Footer*/
+
+.page-footer a{
+  font-weight: 300;
+}
+.page-footer a:hover{
+  opacity: 0.6;
+}
+
+.white-text.head {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+.page-footer {
+  background-color: #1f1f1f !important;
+}
+
+.page-footer .container {
+  padding: 40px 0 40px 0;
+}
+
+
+/*Button*/
+
+.btn-large {
+  height: 55px;
+  width: 180px;
+  border-radius: 55px !important;
+  text-transform: capitalize;
+  font-size: 1.1em;
 }
 
 .button-collapse {
   color: #26a69a;
 }
+
+/*Parallax*/
 
 .parallax-container {
   min-height: 380px;
@@ -25,9 +129,9 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {

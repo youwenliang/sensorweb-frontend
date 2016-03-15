@@ -9,36 +9,36 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="index.html" class="brand-logo">SensorWeb</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="programs.html">Programs</a></li>
-        <li><a href="documentation.html">Documentation</a></li>
-        <li><a href="sensor-management.html">Login</a></li>
-      </ul>
+  <div class="navbar-fixed">
+    <nav class="teal" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="index.html" class="brand-logo">SensorWeb</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="projects.html">Projects</a></li>
+          <!-- <li><a href="documentation.html">Documentation</a></li>
+          <li><a href="sensor-management.html">Login</a></li> -->
+        </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="programs.html">Programs</a></li>
-        <li><a href="documentation.html">Documentation</a></li>
-        <li><a href="sensor-management.html">Login</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="projects.html">Projects</a></li>
+          <!-- <li><a href="documentation.html">Documentation</a></li>
+          <li><a href="sensor-management.html">Login</a></li> -->
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  <div>
 
-  <div id="index-banner" class="parallax-container">
+  <div id="index-banner" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Open Data for IoT</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Easiest path from sensors to open data</h5>
-        </div>
-        <div class="row center">
-          <a href="documentation.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
+        
+
+          <div class="row center valign">
+            <h2 class="header col s12 light">Easiest path from sensors to open data</br></br></h2>
+            <a href="#what" id="download-button" class="waves-effect waves-light btn-large">Learn More</a>
+          </div>
+        
 
       </div>
     </div>
@@ -46,10 +46,16 @@
   </div>
 
 
-  <div class="container">
+  <div class="container" id="what">
     <div class="section">
       <div class="row">
-        <div class="col s12 m4">
+        <div class="col s12">
+          <h3 class="center-align">What is SensorWeb?</h3>
+          <p class="contents">
+            SensorWeb wants to advance Mozilla’s mission to promote the open web when it evolves to the physical world. It aims to find the easiest path from sensors to open data. Instead of passively receiving information, contributors with different skills can collaboratively use sensors to get a great detail of understanding of our living environment and potentially find solutions for existing problems. This can only be achieved by improving sensor web literacy as web is on a path to involve more physical objects. 
+          </p>
+        </div>
+        <!-- <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
             <h5 class="center">Speeds up development</h5>
@@ -74,7 +80,10 @@
 
             <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
           </div>
-        </div>
+        </div> -->
+      </div>
+      <div class="row center">
+        <a href="projects.html" class="waves-effect waves-light btn-large">Get Started</a>
       </div>
     </div>
   </div>
@@ -82,34 +91,30 @@
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
-        <div class="col l3 s12">
-          <h5 class="white-text">SensorWeb</h5>
+        <div class="col l3 s12 offset-l1">
+          <h5 class="white-text head">SensorWeb</h5>
           <ul>
-            <li><a class="white-text" href="#">Overview</a></li>
-            <li><a class="white-text" href="#">Developers</a></li>
-            <li><a class="white-text" href="#">App</a></li>
-            <li><a class="white-text" href="#">Blog</a></li>
-            <li><a class="white-text" href="#">FAQ</a></li>
+            <li><a class="white-text" href="projects.html">Projects</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="white-text head">Connect</h5>
           <ul>
             <li><a class="white-text" href="https://github.com/sensor-web" target="_blank">GitHub</a></li>
             <li><a class="white-text" href="https://wiki.mozilla.org/SensorWeb" target="_blank">Wiki</a></li>
             <li><a class="white-text" href="https://wiki.mozilla.org/Connected_Devices/Participation" target="_blank">Participation</a></li>
           </ul>
         </div>
-        <div class="col l6 s12">
-          <h5 class="white-text">Contact Us</h5>
+        <div class="col l4 s12">
+          <h5 class="white-text head">Contact Us</h5>
           <p class="grey-text text-lighten-4">sensorweb@mozilla.com</p>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
+      <!-- <div class="container">
       Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
+      </div> -->
     </div>
   </footer>
 
