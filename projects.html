@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/projects.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
   <div class="navbar-fixed">
@@ -27,7 +28,7 @@
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       </div>
     </nav>
-  <div>
+  </div>
 
   <div class="container projects">
     <div class="section">
@@ -74,10 +75,15 @@
             <h4 class="center-align">Got ideas for more programs?</h4>
             <p class="contents">We are building the foundation so it is easier for you to contribute. If you are interested in participating, please leave your contact information and let us know what areas interest you. We will get in touch when we are ready. </br></br>
             </p>
-            <a href="#" class="waves-effect waves-light btn-large">Feedback</a>
+            <a href="#feedback-modal" class="waves-effect waves-light btn-large modal-trigger">Feedback</a>
           </div>
         </div>
       </div>
+  </div>
+
+  <!-- Modal Structure -->
+  <div id="feedback-modal" class="modal">
+    <iframe src="https://docs.google.com/forms/d/19epwfpDesYGLkpR9ulSHdz0S99yCFOm__o2wy9P7iv0/viewform?embedded=true" width="100%" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
   </div>
 
   <!-- <div class="container">
@@ -148,7 +154,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <script src="js/init.js"></script>
-  <script src="js/program.js"></script>
+  <script src="js/projects.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
