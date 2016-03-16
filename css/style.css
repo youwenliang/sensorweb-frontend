@@ -15,19 +15,20 @@ nav{
   top:0;
 }
 
-#sidenav-overlay {
-  
-}
-
 nav ul a,
 nav .brand-logo {
   color: #FFF;
 }
 
 .brand-logo {
-  font-size: 1.6em !important;
+  font-size: 1.5em !important;
   font-weight: 500;
-  letter-spacing: .6px; 
+  font-style: italic;
+  letter-spacing: 1.2px; 
+}
+
+.teal {
+  background-color: #5cc7b8 !important;
 }
 
 /*Sections*/
@@ -53,6 +54,15 @@ nav .brand-logo {
   margin-bottom: 100px;
 }
 
+.place-image1 {
+  display: block;
+  background-color: #ccc;
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  margin-top: 20px;
+}
+
 .banner {
   background-color: #f3f3f3;
   padding-top: 50px;
@@ -74,22 +84,22 @@ h2 {
 
 h3, h4 {
   margin-bottom: 40px;
-  color: #333;
+  color: #454545;
   font-weight: 700;
 }
 
 .contents{
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.8;
   font-weight: 300;
-  color: rgba(0,0,0,0.5);
+  color: #545353;
   text-align: left;
 }
 
 /*Footer*/
 
 .page-footer a{
-  font-weight: 300;
+  /*font-weight: 300;*/
 }
 .page-footer a:hover{
   opacity: 0.6;
@@ -103,7 +113,7 @@ h3, h4 {
 }
 
 .page-footer {
-  background-color: #1f1f1f !important;
+  background-color: #222 !important;
 }
 
 .page-footer .container {
@@ -119,6 +129,7 @@ h3, h4 {
   border-radius: 55px !important;
   text-transform: capitalize;
   font-size: 1.1em;
+  background-color: #5cc7b8;
 }
 
 .button-collapse {
