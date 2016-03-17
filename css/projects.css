@@ -1,3 +1,7 @@
 #feedback-modal {
-  overflow: hidden;
+  width: 60%;
+}
+
+#projects-fb-form {
+  padding: 2%;
 }
