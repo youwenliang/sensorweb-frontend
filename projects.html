@@ -82,8 +82,46 @@
   </div>
 
   <!-- Modal Structure -->
+  <script type="text/javascript">var submitted=false;</script>
+  <iframe name="hidden_iframe" id="hidden_iframe"
+  style="display:none;" onload="if(submitted)
+  {$('#feedback-modal').closeModal();}"></iframe>
+
   <div id="feedback-modal" class="modal">
-    <iframe src="https://docs.google.com/forms/d/19epwfpDesYGLkpR9ulSHdz0S99yCFOm__o2wy9P7iv0/viewform?embedded=true" width="100%" height="640" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <form action="https://docs.google.com/forms/d/19epwfpDesYGLkpR9ulSHdz0S99yCFOm__o2wy9P7iv0/formResponse" method="POST" id="projects-fb-form" target="hidden_iframe" onsubmit="submitted=true;">
+      <div class="center">
+
+      <div class="ss-form-question errorbox-good" role="listitem">
+      <div dir="auto" class="ss-item ss-item-required ss-select"><div class="input-field">
+      <select class="required" name="entry.876454251" id="entry_876454251" aria-label="Which topic draws your attention?  " aria-required="true" required=""><option value=""></option>
+      <option value="Pilot Project - PM2.5">Pilot Project - PM2.5</option> <option value="Other Project Ideas">Other Project Ideas</option></select>
+      <label class="ss-q-item-label" for="entry_876454251"><div class="ss-q-title">Which topic draws your attention?
+      <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+      </div>
+      <div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+      </div></div></div>
+
+    <div class="ss-form-question errorbox-good" role="listitem">
+    <div dir="auto" class="ss-item  ss-paragraph-text"><div class="input-field">
+    <label class="ss-q-item-label" for="entry_1121732545">Any thought about the topic?
+    <div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+    <textarea name="entry.1121732545" rows="8" cols="0" class="materialize-textarea" id="entry_1121732545" dir="auto" aria-label="Any thought about the topic?  "></textarea>
+    <div class="error-message" id="1647130968_errorMessage"></div>
+    </div></div></div>
+
+    <input name="draftResponse" value="[,,&quot;-1399116953732568931&quot;]
+    " type="hidden">
+    <input name="pageHistory" value="0" type="hidden">
+
+    <input name="fvv" value="0" type="hidden">
+
+
+    <input name="fbzx" value="-1399116953732568931" type="hidden">
+
+    <div class="ss-item ss-navigate">
+      <input name="submit" value="Submit" id="ss-submit" class="waves-effect waves-light btn-large" type="submit">
+    </div></div></form>
+    <!-- <iframe src="https://docs.google.com/forms/d/19epwfpDesYGLkpR9ulSHdz0S99yCFOm__o2wy9P7iv0/viewform?embedded=true" width="100%" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
   </div>
 
   <!-- <div class="container">
