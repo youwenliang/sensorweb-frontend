@@ -1,3 +1,12 @@
 #index-form {
   margin: 0 20%;
 }
+
+#index-contact-banner {
+  background-image: url("../images/01_contact.png");
+}
+
+#index-contact-banner h3,
+#index-form .title {
+  color: white;
+}
