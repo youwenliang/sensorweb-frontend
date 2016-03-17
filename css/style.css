@@ -32,28 +32,11 @@ nav .brand-logo {
   background-color: #5cc7b8 !important;
 }
 
-/*Sections*/
-.fullscreen{
+.banner {
+  background-color: #f3f3f3;
   padding-top: 50px;
   padding-bottom: 50px;
-  width: 100%;
-  /*background-color: #333;*/
 }
-
-#background-1{
-  background: url(../images/02_cover.png);
-  background-size: cover;
-  background-repeat: none;
-  background-position: center center;
-}
-
-#background-2{
-  background: url(../images/02_give_feedback.png);
-  background-size: cover;
-  background-repeat: none;
-  background-position: center center;
-}
-
 
 #index-banner {
   height: 768px;
@@ -73,25 +56,7 @@ nav .brand-logo {
   margin-top: 20px;
 }
 
-#image-1{
-  background: url(../images/02_contribute_all.png);
-  background-size: cover;
-  background-repeat: none;
-  background-position: center center;
-}
 
-#image-2{
-  background: url(../images/02_contribute.png);
-  background-size: cover;
-  background-repeat: none;
-  background-position: center center;
-}
-
-.banner {
-  background-color: #f3f3f3;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
 
 
 /*Typography*/
@@ -187,13 +152,6 @@ h3, h4 {
   }
 }
 @media only screen and (min-width : 992px) {
-  /*.parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }*/
 
   .image-right {
     float: right;
