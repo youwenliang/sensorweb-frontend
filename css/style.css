@@ -39,12 +39,11 @@ nav .brand-logo {
 }
 
 #index-banner {
-  height: 768px;
+  height: 555px;
 }
 
 #what {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 40px;
 }
 
 .place-image {
@@ -67,6 +66,7 @@ p {
 }
 
 h2 {
+  font-size: 3.2em;
   font-weight: 100 !important;
   letter-spacing: 2px;
 }
@@ -74,6 +74,7 @@ h2 {
 h3, h4 {
   margin-bottom: 40px;
   color: #454545;
+  font-size: 2.2em;
   font-weight: 700;
 }
 
