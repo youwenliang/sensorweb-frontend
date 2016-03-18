@@ -4,6 +4,9 @@
 
 #index-contact-banner {
   background-image: url("../images/01_contact.png");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center center;
 }
 
 #index-contact-banner h3,
